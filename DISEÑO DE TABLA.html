@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<title>Comedor Logros</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<style type="text/css">
+
+</style>
+</head>
+<body>
+
+  <div class="titulo">
+    <p>Comedor LOGROS</p>
+    <img class="imagen-titulo" src="imagenes/logo-cafetin.enc" alt="">
+  </div>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#combos">Combo 2.5$</a></li>
+      <li><a href="#sopas">Sopas</a> </li>
+      <li><a href="#jugos">Jugos Naturales</a> </li>
+      <li><a href="#chuches">Chucherías</a></li>
+      <li><a href="../ESENCIA/copia plantas.html">siguiente pag</a></li>
+   </ul>
+  </nav>
+
+
+  <div>
+    <div><p id="combos">COMBOS</p></div>
+    <div class="menu">
+      <div>
+        <figure>
+          <img src="img/combo 1.jpg" alt="">
+          <figcaption align="center">2.5$</figcaption>
+        </figure>
+      </div>
+      <div>
+        <fg
+          <img src="img/combo 2.jpg" alt="">
+          <figcaption align="center">2.5$</figcaption>
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img src="img/combo 3.jpg" alt="">
+          <figcaption align="center">2.5$</figcaption>
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img src="img/combo 4.jpg" alt="">
+          <figcaption align="center">2.5$</figcaption>
+        </figure>
+      </div>
+      <div>
+        <figure>
+          <img src="img/combo 5.jpg" alt="">
+          <figcaption align="center">2.5$</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <div id="sopas">
+    <div><p id="combos">SOPAS</p></div>
+    <div class="menu">
+      <div>
+        <figure>
+          <img src="img/sopa.jpg" alt="">
+          <figcaption>
+            3.5$
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <div id="jugos">
+    <div><p id="combos">BEBIDAS</p></div>
+    <div class="menu">
+      <figure>
+        <img style="width: 150px;" src="img/jugos.jpg" alt="">
+      <figcaption align="center">1$</figcaption>
+    </figure>
+      <div>
+        <figure>
+          <img style="width: 250px;" src="img/cocacola.jpg" alt="">
+        <figcaption align="center">1$</figcaption>
+      </figure>
+  </div>
+  <div>
+    <figure>
+      <img style="width: 250px;" src="img/pepsi.jpg" alt="">
+    <figcaption align="center">1$</figcaption>
+  </figure>
+  </div>
+    </div>
+    </div>
+  </div>
+  <div id="chuches">
+    <div>
+        <p id="combos">CHUCHERIAS</p>
+        <div class="menu">
+          <div>
+            <figure>
+              <img style="width: 250px;" src="img/tostones.jpg" alt="">
+              <figcaption>1$</figcaption>
+            </figure>
+          </div>
+          <div>
+            <figure>
+              <img style="width: 250px;" src="img/trululu.png" alt="">
+              <figcaption>1$</figcaption>
+            </figure>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  
+  <script>
+  function cambiarImagen (elemento,imagen_1, imagen_2){/*--Funci�n para cambiar imagen--*/
+  var imagen = document.getElementById(elemento);/*--Cuando el mouse esta sobrela imagen--*/
+  imagen.addEventListener("mouseover", function(){imagen.src = imagen_2;});/*-- mouse esta fuera de la imagen--*/
+  imagen.addEventListener("mouseout", function(){imagen.src = imagen_1;});
+	}/*--Llamadas a la funci�n--*/
+  cambiarImagen('romero','romero.jpg','romero-1.jpg');
+  cambiarImagen('abedulhojas','abedulhojas.jpg','abedulhojas-1.jpg');
+  
+  
+  </script>
+  
+  
+</body>
+</html>
